@@ -22,7 +22,6 @@
 }
 .stock_body-text{
     padding: 2.4rem 0;
-
     font-style: normal;
     font-weight: 400;
     font-size: 1.8rem;
@@ -45,8 +44,20 @@
 }
 .stock_body-link::after{
     content: "";
-    width: 120px;
+    width: 80px;
     display: block;
     height: 1px;
     background-color: #363431;
+}
+.slider-dots{
+    display: flex;
+    justify-content: center;
+    gap: 2.4rem;
+    margin-top: 7.2rem;
+}
+.dot{
+    width: 16px;
+    height: 16px;
+    background-color: #AEACAA;
+    border-radius: 50%;
 }
