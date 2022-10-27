@@ -56,6 +56,9 @@
     padding: 0 0.8rem;
 }
 @media screen and (max-width:480px) {
+    .studio{
+        margin-bottom: 14rem;
+    }
     .studio_title{
         font-weight: 400;
         font-size: 2.8rem;
