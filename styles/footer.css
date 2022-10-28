@@ -7,25 +7,99 @@
   top: 0%;
   bottom: 0%;
   background: #FFFFFF;
-  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1);  /*я хз зачем тени, но в макете они есть(*/
+  box-shadow: 0px -2px 8px rgb(0 0 0 / 10%);
   max-width: 1920px;
   height: 448px;
-  display: flex; 
-  justify-content: space-between;
-  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
 
 }
 
 
 .hrefs, .about-us, .sub-on-news {
-  width: 600px;
-  height: 400px;
-      border: 2px solid black; /*потом убрать */
+  width: 450px;
+  height: 350px;
   margin-top: 80px;
   font-family: "Comfortaa";
   font-size: 16px;
   line-height: 16.38px;
+  margin-top: 84px;
 }
 
-/* <3 */
 
+.set_menu {
+  margin-bottom: 27px;
+  
+}
+
+
+.icons {
+  margin-top: 63px;
+  margin-bottom: 28px;
+  margin-right: 24px;
+}
+
+
+.set_text {
+  color: #363431;
+  text-decoration: underline;
+}
+
+
+.bl_color {
+  color: #828282;
+}
+
+
+.mar_b {
+  margin-bottom: 31px;
+}
+
+
+.par_one {
+  line-height: 170%;
+  margin-bottom: 18px;
+}
+
+
+.par_two {
+  line-height: 150%;
+}
+
+
+.mrg_bt {
+  margin-bottom: 28px;
+}
+
+
+.text_set1 {
+  line-height: 170%;
+}
+
+
+.form {
+  width: 376px;
+  height: 48px;
+  margin-bottom: 68px;
+  margin-top: 40px;
+  display: flex;
+}
+
+
+.input_1 {
+  width: 272px;
+  height: 48px;
+  background-color: #F3F3F3;
+  font-size: 14px;
+  padding-left: 16px;
+}
+
+
+.but_1 {
+  width: 104px;
+  height: 48px;
+  background-color: #74B900;
+}

@@ -107,36 +107,45 @@
     <footer>
       <div class="footer">
         <div class="hrefs" >
-          <!-- Я думаю тут лучше использовать список ul li a, будет более правильно -->
-          <a href="">НАШИ УСЛУГИ</a> 
-          <a href="">АКЦИИ</a>
-          <a href="">ПРАЙС</a>
-          <a href="">КОНТАКТЫ</a>
-          <a href="">
-            <img src="" alt="">
-          </a>
-          <a href="">
-
-          </a>
-          <a href="">
-
-          </a>
+          <ul>
+            <li class="set_menu"><a href="" class="set_text">НАШИ УСЛУГИ</a></li> 
+            <li class="set_menu"><a href="" class="set_text">АКЦИИ</a></li>
+            <li class="set_menu"><a href="" class="set_text">ПРАЙС</a></li>
+            <li class="set_menu"><a href="" class="set_text">КОНТАКТЫ</a></li>
+            <a href="https://vk.com/">
+              <img src="./images/footer-icons/vk_icon.png" alt="vk" class="icons">
+            </a>
+            <a href="https://www.google.com/">
+              <img src="./images/footer-icons/google_icon.png" alt="google" class="icons">
+            </a>
+            <a href="https://www.whatsapp.com/">
+              <img src="./images/footer-icons/whatsapp_icon.png" alt="whatsapp" class="icons">
+            </a>
+            <li><p class="bl_color">© 2017-2021 ООО BODY TIME. Все права защищены.</p></li>
+          </ul>
         </div>
         <div class="about-us"> 
-          <!-- Здесь все гуччи -->
-          <p>О нас</p>
-          <p>Аппаратная коррекция фигуры без диет, таблеток и сверхусилий. У нас вы найдете новейшие методики со 100% результатом. Используем современное оборудование.</p>
-          <p>Мы находимя по адресу: г. Новосибирск, ул. Вокзальная магистраль,16, оф. 205, 2 эт.</p>
+          <p class="mar_b">О нас</p>
+          <p class="par_one">Аппаратная коррекция фигуры без диет, таблеток и сверхусилий. У нас вы<br> найдете новейшие методики со 100%<br> результатом. Используем современное оборудование.</p>
+          <p class="par_two">Мы находимя по адресу: г. Новосибирск, ул. Вокзальная магистраль,16, оф. 205, 2<br> эт.</p>
         </div>
         <div class="sub-on-news">
-          <a href="">ПОДПИСАТЬСЯ НА НОВОСТИ</a>
-          <p>Чтобы быть в курсе новых акций 
+            <p class="mrg_bt">ПОДПИСАТЬСЯ НА НОВОСТИ</p>
+            <p class="text_set1">Чтобы быть в курсе новых акций 
             и новостей нашего салона подпишитесь 
             на рассылку.</p>
-            <!-- <input type="text" placeholder="Добавтьте эл. почту">  Вот этот тэг нужен, а рядом с ним button можешь инпут и кнопку в один блок собрать для удобства-->
-            <div class="input"></div> 
-            <p>*Политика конфиденциальности</p>
+            <div class="form">
+            <input type="email" placeholder="Добавьте эл.почту*" required class="input_1">
+            <button class="but_1">ОК</button>
+            </div>
+            <ul>
+            <li><a href="" class="set_text bl_color">*Политика конфиденциальности</a></li>
+            </ul>
         </div>
+      </div>
+        <!-- короче, время уже позднее, голова не работает.. 
+        из ошибок: 1) строка добавить почту при нажатии не мигает целиком, только само небольшое поле, я искал как это починить но нашел только способ увеличения шрифта для плйсхолдера, обидно
+      2) при мобильном просмотре строчки с иконками соц сетей и права что-то там не на своих местах(в макете они расположены иначе) 3) я переносил строчки через br так вроде не совсем правильно но об этом я подумал только сейчас, если скажешь как сделать по другому буду очень рад <3  -->
     </footer>
     <script src="src/slider.js"></script>
   </body>
