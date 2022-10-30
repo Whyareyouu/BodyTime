@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+.Title{
+    background-image: url("../images/MainBanner.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 840px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.correction{
+    font-family: "Comfortaa";
+    font-weight: 400;
+    font-size: 56px;
+    color: #FFFFFF;  
+    text-align: center;
+}
+.correction::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 120px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 40px auto 0;
+    margin-bottom: 40px;
+}
+.studio_title_1{
+    font-family: "Comfortaa";
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+.call{
+    font-family: "Comfortaa";
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 2px solid white ;
+    padding: 30px 45px;
+    border-radius: 10px;
+    
+}

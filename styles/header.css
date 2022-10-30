@@ -1,21 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 .navigation{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 32px;
 }
 .main_nav{
     display: flex;
-    
 }
 .nav{
     padding-right: 56px;
     font-weight: 400;
     font-size: 16px;
+    font-family: "Comfortaa";
+    color: black;
 }
+
 .contacts{
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon_2{
+    padding: 16px;
 }
 .contacts_icon{
     background-color: green;
     border-radius: 50%;
+}
+.number{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Comfortaa";
+}
+.address{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Comfortaa";
+    line-height: 21px;
+}
+.place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_3{
+    padding: 16px;
 }
