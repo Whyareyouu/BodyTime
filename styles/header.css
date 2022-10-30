@@ -1,0 +1,21 @@
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main_nav{
+    display: flex;
+    
+}
+.nav{
+    padding-right: 56px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.contacts{
+    display: flex;
+}
+.contacts_icon{
+    background-color: green;
+    border-radius: 50%;
+}
