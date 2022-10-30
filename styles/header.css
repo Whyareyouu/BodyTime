@@ -3,15 +3,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 32px;
+    margin: 3.2rem;
 }
 .main_nav{
     display: flex;
 }
 .nav{
-    padding-right: 56px;
+    padding-right: 5.6rem;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: "Comfortaa";
     color: black;
 }
@@ -22,7 +22,7 @@
     justify-content: center;
 }
 .icon_2{
-    padding: 16px;
+    padding: 1.6rem;
 }
 .contacts_icon{
     background-color: green;
@@ -30,12 +30,12 @@
 }
 .number{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: "Comfortaa";
 }
 .address{
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-family: "Comfortaa";
     line-height: 21px;
 }
@@ -45,5 +45,5 @@
     align-items: center;
 }
 .icon_3{
-    padding: 16px;
+    padding: 1.6rem;
 }

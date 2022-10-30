@@ -13,7 +13,7 @@
 .correction{
     font-family: "Comfortaa";
     font-weight: 400;
-    font-size: 56px;
+    font-size: 5.6rem;
     color: #FFFFFF;  
     text-align: center;
 }
@@ -24,23 +24,23 @@
     width: 120px;
     background-color: #FFFFFF;
     text-align: center;
-    margin: 40px auto 0;
-    margin-bottom: 40px;
+    margin: 4rem auto 0;
+    margin-bottom: 4rem;
 }
 .studio_title_1{
     font-family: "Comfortaa";
     font-weight: 400;
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #FFFFFF;
-    margin-bottom: 80px;
+    margin-bottom: 8rem;
 }
 .call{
     font-family: "Comfortaa";
     font-weight: 400;
-    font-size: 20px;
+    font-size: 2rem;
     color: #FFFFFF;
     border: 2px solid white ;
-    padding: 30px 45px;
+    padding: 3rem 4.5rem;
     border-radius: 10px;
     
 }
