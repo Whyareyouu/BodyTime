@@ -2,21 +2,28 @@
 /* нужного шрифта нет на гугл фонт, я его и качал, пытался подключить, не получилось, я нашел похожий но это печально( */
 
 .footer {
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
   background: #FFFFFF;
   box-shadow: 0px -2px 8px rgb(0 0 0 / 10%);
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: flex-start;
-
+  margin: 0 auto;
+  display: grid;
+  justify-items: center;
+  grid-template-areas: "hrefs about sub-on-news" "box_1 . box_2";
 }
-
-
+.hrefs{
+  grid-area: hrefs;
+}
+.about-us{
+  grid-area: about;
+}
+.sub-on-news{
+  grid-area: sub-on-news;
+}
+.box_1{
+  grid-area: box_1;
+}
+.box_2{
+  grid-area: box_2;
+}
 .hrefs, .about-us, .sub-on-news {
   width: 450px;
   height: 350px;
