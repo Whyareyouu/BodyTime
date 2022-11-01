@@ -4,10 +4,11 @@
 .footer {
   background: #FFFFFF;
   box-shadow: 0px -2px 8px rgb(0 0 0 / 10%);
-  margin: 0 auto;
+  margin: 0 auto  ;
   display: grid;
   justify-items: center;
   grid-template-areas: "hrefs about sub-on-news" "box_1 . box_2";
+  padding-bottom: 8rem;
 }
 .hrefs{
   grid-area: hrefs;
@@ -20,20 +21,29 @@
 }
 .box_1{
   grid-area: box_1;
+  justify-self: center;
+  width: 450px;
 }
 .box_2{
   grid-area: box_2;
-}
-.hrefs, .about-us, .sub-on-news {
+  justify-self: center;
   width: 450px;
-  height: 350px;
-  margin-top: 80px;
-  font-family: "Comfortaa";
-  font-size: 16px;
-  line-height: 16.38px;
-  margin-top: 84px;
 }
-
+.footer_blocks{
+  display: flex;
+  width: 450px;
+  flex-direction: column;
+  font-family: "Comfortaa";
+  font-size: 1.6rem;
+  line-height: 16.38px;
+}
+.set_text{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  color: #363431;
+}
 
 .set_menu {
   margin-bottom: 27px;
@@ -51,11 +61,6 @@
 .set_text {
   color: #363431;
   text-decoration: underline;
-}
-
-
-.bl_color {
-  color: #828282;
 }
 
 
@@ -104,27 +109,13 @@
 
 
 .but_1 {
-  width: 104px;
-  height: 48px;
+  padding:2rem 4rem;
   background-color: #74B900;
+  text-align: center;
+  color: white;
 }
 
 
 .list_1 {
   display: flex;
-}
-
-
-.box_2 {
-  /* margin-top: 115px; */
-
-}
-
-.box_3{
-  font-size: 16px;
-  font-family: "Comfortaa";
-  display: grid;
-  grid-template-columns: repeat(3, 635px);
-  margin-left: 92px;
-  margin-top: -46px;
 }
