@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-/* нужного шрифта нет на гугл фонт, я его и качал, пытался подключить, не получилось, я нашел похожий но это печально( */
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 .footer {
   left: 0%;
@@ -49,6 +48,7 @@
 
 .bl_color {
   color: #828282;
+  text-decoration: underline;
 }
 
 
@@ -81,7 +81,6 @@
 .form {
   width: 376px;
   height: 48px;
-  margin-bottom: 68px;
   margin-top: 40px;
   display: flex;
 }
@@ -105,19 +104,10 @@
 
 .list_1 {
   display: flex;
-}
+} 
 
 
-.box_2 {
-  /* margin-top: 115px; */
-
-}
-
-.box_3{
-  font-size: 16px;
-  font-family: "Comfortaa";
-  display: grid;
-  grid-template-columns: repeat(3, 635px);
-  margin-left: 92px;
-  margin-top: -46px;
+.fixx {
+  position: relative;
+  bottom: -118px;
 }
