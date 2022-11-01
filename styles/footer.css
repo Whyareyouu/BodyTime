@@ -38,11 +38,14 @@
   line-height: 16.38px;
 }
 .set_text{
+  font-family: "Comfortaa";
   font-style: normal;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.6rem;
   color: #363431;
+}
+.underline{
   text-decoration: underline;
 }
 .footer_icons-list{
