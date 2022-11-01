@@ -77,8 +77,36 @@
   padding-left: 1.6rem;
 }
 .but_1 {
-  padding:2rem 4rem;
+  padding:1.5rem 4rem;
   background-color: #74B900;
   text-align: center;
   color: white;
+}
+.footer_mobile{
+  display: none;
+}
+@media screen and (max-width:480px) {
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .box_1, .box_2{
+    display: none;
+  }
+  .list_1{
+    display: none;
+  }
+  .footer_mobile{
+    margin-top: 3.2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .list_2 {
+    display: flex;
+    gap: 2.4rem;
+    margin: 5.6rem 0 2.4rem;
+  }
 }
