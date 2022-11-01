@@ -43,79 +43,42 @@
   font-size: 1.6rem;
   line-height: 1.6rem;
   color: #363431;
-}
-
-.set_menu {
-  margin-bottom: 27px;
-  
-}
-
-
-.icons {
-  margin-top: 63px;
-  margin-bottom: 28px;
-  margin-right: 24px;
-}
-
-
-.set_text {
-  color: #363431;
   text-decoration: underline;
 }
-
-
-.mar_b {
-  margin-bottom: 31px;
+.footer_icons-list{
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
 }
-
-
+.list_1 {
+  display: flex;
+  gap: 2.4rem;
+  margin: 5.6rem 0 2.4rem;
+}
 .par_one {
   line-height: 170%;
-  margin-bottom: 18px;
+  padding:16px 0 8px;
 }
-
-
 .par_two {
   line-height: 150%;
 }
-
-
-.mrg_bt {
-  margin-bottom: 28px;
-}
-
-
 .text_set1 {
+  padding: 1.6rem 0 3.2rem;
   line-height: 170%;
 }
-
-
 .form {
-  width: 376px;
-  height: 48px;
-  margin-bottom: 68px;
-  margin-top: 40px;
   display: flex;
 }
-
-
 .input_1 {
   width: 272px;
   height: 48px;
   background-color: #F3F3F3;
-  font-size: 14px;
-  padding-left: 16px;
+  font-size: 1.4rem;
+  padding-left: 1.6rem;
 }
-
-
 .but_1 {
   padding:2rem 4rem;
   background-color: #74B900;
   text-align: center;
   color: white;
-}
-
-
-.list_1 {
-  display: flex;
 }
