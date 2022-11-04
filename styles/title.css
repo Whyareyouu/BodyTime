@@ -44,3 +44,15 @@
     border-radius: 10px;
     margin-bottom: 15.9rem;
 }
+@media screen and (max-width: 480px) {
+    .correction{
+        font-size: 3rem;
+    }
+    .studio_title_1{
+        font-size: 1.6rem;
+    }
+    .call{
+        padding: 2rem 3rem;
+        font-size: 1.4rem;
+    }
+}
