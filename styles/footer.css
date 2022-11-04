@@ -29,6 +29,7 @@
   width: 450px;
 }
 .footer_blocks{
+  margin-top: 8rem;
   display: flex;
   width: 450px;
   flex-direction: column;
@@ -94,6 +95,13 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+  }
+  .footer_blocks{
+    margin-top:4rem ;
+    width: 300px;
+  }
+  .onh{
+    display: none;
   }
   .box_1, .box_2{
     display: none;

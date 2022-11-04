@@ -1,6 +1,8 @@
 .stock{
     color: #363431;
     margin-bottom: 17rem;
+    background-color: #F3F3F3;
+    padding: 3rem 0;
 }
 .stock__title{
     text-align: center;
@@ -79,7 +81,7 @@
 @media screen and (max-width: 480px){
     .stock{
         max-width: 100%;
-        margin-bottom: 5rem;
+        margin-bottom: 0rem;
     }
     .stock__title{
         margin-bottom: 4rem;

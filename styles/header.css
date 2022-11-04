@@ -47,3 +47,98 @@
 .icon_3{
     padding: 1.6rem;
 }
+.navigation_mobile{
+    display: none;
+    position: relative;
+}
+.menu_mobile{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 1rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 30vh;
+}
+.menu_mobile li{
+    margin-top: 2rem;
+    text-align: center;
+}
+.mobile_link{
+    font-size: 2rem;
+    line-height: 11px;
+    color: #363431;
+}
+.mobile_link::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 200px;
+    margin-top: 0.8rem;
+    background: #828282;
+}
+.burger{
+    z-index: 100;
+    height: 14px;
+    position: relative;
+    width: 24px;
+    background-color: initial;
+}
+.burger-line{
+    display: flex;
+    width: 24px;
+    height: 2px;
+    background: rgb(0, 0, 0);
+    transition: .3s all ease;
+}
+.top-line{
+    position:absolute;
+    left: 0;
+    top: 0;
+}
+.mid-line{
+    position:absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.bottom-line{
+    position:absolute;
+    left: 0;
+    bottom: 0;
+}
+.burger.active > .top-line{
+    transform: translateY(12px) rotate(45deg);
+    transition: .3s all ease;
+}
+.burger.active > .mid-line{
+    opacity: 0;
+    transition: .3s all ease;
+}
+.burger.active > .bottom-line{
+    transform: rotate(135deg);
+    transition: .3s all ease;
+}
+    
+@media screen and (max-width: 480px){
+    .navigation{
+        display: none;
+    }
+    .navigation_mobile{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #btn_header{
+        background:initial;
+    }
+    .navigation_mobile .header_mobile-link{
+        font-size: 1.6rem;
+        line-height: 12px;
+        padding: 1rem;
+        color: #363431;
+    }
+}

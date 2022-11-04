@@ -1,3 +1,6 @@
+.About{
+    margin-bottom: 17.6rem;
+}
 .section_about-title{
     text-align: center;
     font-weight: 400;
@@ -18,7 +21,6 @@
     align-items:center;
     align-content: center;
     text-align: center;
-    margin-bottom: 17.6rem;
 }
 .about_block-img{
     height: 80px;
@@ -26,4 +28,26 @@
 .about_block-text{
     font-weight: 400;
     font-size: 2rem;
+}
+@media screen and (max-width:480px) {
+    .About{
+        margin-bottom: 7.2rem;
+    }
+    .section_about-title{
+        margin-top: 7.2rem;
+        margin-bottom: 4.2rem;
+        font-size: 2.8rem;
+        line-height: 2.7rem;
+    }
+    .about_content{
+        flex-direction: column;
+    }
+    .about_block{
+        margin-bottom: 0;
+        gap: 2.5rem;
+    }
+    .about_block-text{
+        font-size: 1.6rem;
+        line-height: 150%;
+    }
 }
